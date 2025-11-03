@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/590ce5234c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Picsart_25-10-13_15-11-24-485.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#servies">SERVICES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa-solid fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer and Designer</p>
+            <h1>Hi, I'm <span>Keshwarram</span> an <br> enthusiastic Developer </h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-cal1">
+                <img src="images/CEO of Tesla Motors.jpg" alt="">
+            </div>
+            <div class="about-cal2">
+                <h1 class="me">About <span>Me</span></h1>
+                <br><br>
+                <p>I’m Keshwarram, a passionate web developer who loves turning ideas into interactive digital experiences. I enjoy building responsive, user-friendly websites using HTML, CSS, and JavaScript. With a growing interest in front-end design and functionality, I constantly explore new technologies to create clean, efficient, and creative web solutions. My goal is to craft websites that not only look great but also deliver smooth performance and usability across all devices.</p>
+                <br>
+                <div class="titles">
+                    <p class="links act" onclick="opentab('Skills', event)">Skills</p>
+                    <p class="links" onclick="opentab('Projects', event)">Projects</p>
+                    <p class="links" onclick="opentab('certifications', event)">certifications</p>
+                </div>
+                <div class="content active" id="Skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building IOS/Android Apps</li>
+                    </ul>
+                </div>
+                <div class="content" id="Projects">
+                    <ul>
+                        <li><span>Facial Recognition Voting System</span><br>A Facial Recognition Voting System uses AI-based face detection to verify voters’ identities and ensure secure, fraud-free electronic voting.</li>
+                        <li><span>Image Processing and Comparing Webpage</span><br>An Image Processing and Comparing Webpage analyzes and compares images online using algorithms to detect similarities, differences, or specific visual features.</li>
+                        <li><span>Real-Time AI Voice</span><br>A Real-Time AI Voice Assistant processes and responds to user voice commands instantly using speech recognition and natural language processing.</li>
+                    </ul> 
+                </div>
+                <div class="content" id="certifications">
+                    <ul>
+                        <li><span>CCNA Certification</span><br>Demonstrates proficiency in networking fundamentals, routing, switching, and network security.</li>
+                        <li><span>MongoDB</span><br>Showcases expertise in NoSQL database management, data modeling, and efficient query handling.</li>
+                        <li><span>Database Management System Certification</span><br>Highlights knowledge in database design, SQL queries, normalization, and efficient data handling techniques.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<div id="servies">
+    <div class="cantiner">
+        <h1 class="me">My Servies</h1>
+        <div class="servies-l">
+            <div>
+                <img src="images/work-2.png" width="375" alt="">
+                <h2>Web design</h2>
+                <p>Creating visually appealing and user-friendly website layouts.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <img src="images/work-1.png" width="375" alt="">
+                <h2>App Application</h2>
+                <p>Developing mobile applications for iOS and Android platforms.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <img src="images/work-3.png" width="375" alt="">
+                <h2>Front-End and Back-End</h2>
+                <p>Building and maintaining both client-side and server-side components of web applications.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="me">Contact <span>Me</span></h1>
+                <p><i class="fa-solid fa-envelope"></i><br><br>keshwarram191411@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8925581914</p>
+                <div class="soc-icon">
+                    <a href="https://x.com/Keshwarram19141"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/IJCRT2205303.pdf" download class="btn download"> Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name"placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="7" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn" >Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-copyright"></i>Copyright &copy; 2024 Keshwarram. All Rights Reserved.</p>
+    </div>
+</div>
+
+<script src="script.js"></script>   
+</body>
+</html>
