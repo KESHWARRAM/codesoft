@@ -121,6 +121,11 @@ nav ul li a:hover::after{
     color: #2ab8ffc3;
     font-weight: 600;
 }
+.AB{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+}
 .content{
     display:none;
 }
